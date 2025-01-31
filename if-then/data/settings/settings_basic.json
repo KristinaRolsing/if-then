@@ -1,0 +1,14 @@
+{
+    "solver": "scip",
+    "scip_exe": "path_to_scip.exe",
+    "write_solver_output": false,
+    "tolerance": 1e-6,
+    "perturbation" : true,
+    "main_objective": "normal",
+    "random_seed": 17,
+    "solve_BP_also": true,
+    "solve_with_enumeration": true,
+    "max_cuts": 500,
+    "compute_stats": true,
+    "write_single_results": true
+}
